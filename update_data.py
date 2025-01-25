@@ -75,7 +75,7 @@ async def update_beer_data(venues, existing_data):
             continue
 
         url = (
-            f"https://untappd.com/v/the-hive-craft-beer-and-coffee-shop/{venue['id']}/"
+            f"https://untappd.com/v/{venue['slug']}/{venue['id']}/"
         )
         beers = await get_beer_info(url)
         valid_beers = [beer for beer in beers if beer.rating is not None]
