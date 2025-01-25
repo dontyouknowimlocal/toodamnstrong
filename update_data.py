@@ -37,7 +37,7 @@ async def is_duplicate(existing_data, today, venue):
 
 async def fetch_page(url):
     async with httpx.AsyncClient() as client:
-        response = await client.get(url)
+        response = await client.get(url, follow_redirects=True)
         response.raise_for_status()
         return response.text
 
