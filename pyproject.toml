@@ -1,0 +1,16 @@
+[project]
+name = "toodamnstrong"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "hvplot",
+    "panel",
+    "bokeh",
+    "holoviews",
+    "httpx",
+    "beautifulsoup4==4.12.3",
+    "PyGithub==2.5.0"
+]

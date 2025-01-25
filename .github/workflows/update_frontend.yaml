@@ -1,0 +1,50 @@
+name: Update Beer Dashboard
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # Allows the workflow to be run manually from the GitHub Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - uses: actions/configure-pages@v4
+        with:
+          enablement: true
+
+      - name: Install and Run
+        run: |
+          uv python install
+          uv sync --all-extras --dev
+          uv run python update_frontend.py
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+          pattern: |
+            index.html
+            abv_plot.html
+            rating_plot.html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

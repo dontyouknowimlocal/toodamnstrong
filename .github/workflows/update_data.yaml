@@ -1,0 +1,32 @@
+name: Update Beer Data
+
+on:
+  schedule:
+    - cron: "0 14 * * *" # Runs at 14:00 UTC every day (note: not GMT/BST)
+  workflow_dispatch: # Allows the workflow to be run manually from the GitHub Actions tab
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set timezone to Europe/London
+        uses: szenius/set-timezone@v2.0
+        with:
+          timezoneLinux: "Europe/London"
+
+      - uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install and Run
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          VENUES: ${{ vars.VENUES }}
+        run: |
+          uv python install
+          uv sync --all-extras --dev
+          uv run python update_data.py
