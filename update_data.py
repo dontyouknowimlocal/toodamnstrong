@@ -1,17 +1,28 @@
+import asyncio
 import datetime
 import json
-import os
+from dataclasses import dataclass
+from pathlib import Path
+from statistics import mean
 
-import aiohttp
-import asyncio
-
-from environs import Env
-
+import httpx
 from bs4 import BeautifulSoup
+from environs import Env
 from github import Github, GithubException
 
+
+@dataclass
+class Beer:
+    name: str
+    style: str
+    abv: str
+    brewery: str
+    brewery_url: str
+    rating: float | None
+
+
 env = Env()
-DATA_FILE = env.str("DATA_FILE", default="data/venue-menu-history.json")
+DATA_FILE = Path(env.str("DATA_FILE", default="data/venue-menu-history.json"))
 GITHUB_TOKEN = env.str("GITHUB_TOKEN")
 PRIVATE_REPO = env.str("PRIVATE_REPO", default="dontyouknowimlocal/toodamnstrong")
 VENUES = tuple(env.json("VENUES"))
@@ -25,27 +36,27 @@ async def is_duplicate(existing_data, today, venue):
 
 
 async def fetch_page(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as response:
-            response.raise_for_status()
-            return await response.text()
+    async with httpx.AsyncClient() as client:
+        response = await client.get(url)
+        response.raise_for_status()
+        return response.text
 
 
-def parse_beer_info(beer_item):
+def parse_beer_info(beer_item) -> Beer:
     rating_text = beer_item.select_one("h6 .num").text.strip("()")
     rating = float(rating_text) if rating_text != "N/A" else None
 
-    return {
-        "name": beer_item.select_one("h5 a").text.strip(),
-        "style": beer_item.select_one("h5 em").text.strip(),
-        "abv": beer_item.select_one("h6 span")
+    return Beer(
+        name=beer_item.select_one("h5 a").text.strip(),
+        style=beer_item.select_one("h5 em").text.strip(),
+        abv=beer_item.select_one("h6 span")
         .text.split("•")[0]
         .strip()
         .replace("% ABV", ""),
-        "brewery": beer_item.select_one("h6 span a").text.strip(),
-        "brewery_url": beer_item.select_one("h6 span a")["href"],
-        "rating": rating,
-    }
+        brewery=beer_item.select_one("h6 span a").text.strip(),
+        brewery_url=beer_item.select_one("h6 span a")["href"],
+        rating=rating,
+    )
 
 
 async def get_beer_info(url):
@@ -67,7 +78,7 @@ async def update_beer_data(venues, existing_data):
             f"https://untappd.com/v/the-hive-craft-beer-and-coffee-shop/{venue['id']}/"
         )
         beers = await get_beer_info(url)
-        valid_beers = [beer for beer in beers if beer["rating"] is not None]
+        valid_beers = [beer for beer in beers if beer.rating is not None]
 
         if not valid_beers:
             continue
@@ -77,31 +88,27 @@ async def update_beer_data(venues, existing_data):
                 "venue_id": venue["id"],
                 "venue_name": venue["name"],
                 "date": today,
-                "abv_avg": sum(float(beer["abv"]) for beer in valid_beers)
-                / len(valid_beers),
-                "abv_max": max(float(beer["abv"]) for beer in valid_beers),
-                "abv_min": min(float(beer["abv"]) for beer in valid_beers),
-                "rating_avg": sum(beer["rating"] for beer in valid_beers)
-                / len(valid_beers),
-                "rating_max": max(beer["rating"] for beer in valid_beers),
-                "rating_min": min(beer["rating"] for beer in valid_beers),
-                "beers": valid_beers,
+                "abv_avg": mean(float(beer.abv) for beer in valid_beers),
+                "abv_max": max(float(beer.abv) for beer in valid_beers),
+                "abv_min": min(float(beer.abv) for beer in valid_beers),
+                "rating_avg": mean(beer.rating for beer in valid_beers),
+                "rating_max": max(beer.rating for beer in valid_beers),
+                "rating_min": min(beer.rating for beer in valid_beers),
+                "beers": [vars(beer) for beer in valid_beers],
             }
         )
     return data
 
 
-def load_existing_data(file_path):
-    if os.path.exists(file_path):
-        with open(file_path, "r") as f:
-            return json.load(f)
+def load_existing_data(file_path: Path):
+    if file_path.exists():
+        return json.loads(file_path.read_text())
     return []
 
 
-def save_data_to_file(data, file_path):
-    os.makedirs(os.path.dirname(file_path), exist_ok=True)
-    with open(file_path, "w") as f:
-        json.dump(data, f, indent=4)
+def save_data_to_file(data, file_path: Path):
+    file_path.parent.mkdir(parents=True, exist_ok=True)
+    file_path.write_text(json.dumps(data, indent=4))
 
 
 def get_repo(github_instance, repo_name):
@@ -135,8 +142,7 @@ async def main():
     all_data = existing_data + new_data
     save_data_to_file(all_data, DATA_FILE)
 
-    with open(DATA_FILE, "r") as file:
-        file_data = file.read()
+    file_data = DATA_FILE.read_text()
     commit_message = "Update beer data"
     update_file(repo, DATA_FILE, file_data, commit_message)
 

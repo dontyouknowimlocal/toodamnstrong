@@ -1,47 +1,65 @@
-import pandas as pd
-import hvplot.pandas  # For HoloViews interactive plots
-import holoviews as hv  
 import json
+from pathlib import Path
+
+import holoviews as hv
+import hvplot.pandas  # For HoloViews interactive plots
+import pandas as pd
+from environs import Env
+
+env = Env()
+DATA_FILE = Path(env.str("DATA_FILE", default="data/venue-menu-history.json"))
 
 # Ensure we use the Bokeh backend
-hv.extension('bokeh')
+hv.extension("bokeh")
 
 # Load data from JSON file
-with open("data/venue-menu-history.json", "r") as file:
+with open(DATA_FILE, "r") as file:
     data = json.load(file)
 
 # Convert JSON data into a DataFrame
 records = []
 for entry in data:
     for beer in entry["beers"]:
-        records.append({
-            "venue": entry["venue_name"],
-            "date": entry["date"],
-            "abv_avg": entry["abv_avg"],
-            "abv_max": entry["abv_max"],
-            "abv_min": entry["abv_min"],
-            "rating_avg": entry["rating_avg"],
-            "rating_max": entry["rating_max"],
-            "rating_min": entry["rating_min"],
-            "beer_name": beer["name"],
-            "beer_style": beer["style"],
-            "beer_abv": float(beer["abv"]),
-            "beer_rating": beer["rating"]
-        })
+        records.append(
+            {
+                "venue": entry["venue_name"],
+                "date": entry["date"],
+                "abv_avg": entry["abv_avg"],
+                "abv_max": entry["abv_max"],
+                "abv_min": entry["abv_min"],
+                "rating_avg": entry["rating_avg"],
+                "rating_max": entry["rating_max"],
+                "rating_min": entry["rating_min"],
+                "beer_name": beer["name"],
+                "beer_style": beer["style"],
+                "beer_abv": float(beer["abv"]),
+                "beer_rating": beer["rating"],
+            }
+        )
 
 # Create DataFrame
 df = pd.DataFrame(records)
 
 # Generate interactive plots
-abv_plot = df.hvplot.line(x="date", y=["abv_min", "abv_avg", "abv_max"], by="venue", title="Min/Avg/Max ABV Over Time")
-rating_plot = df.hvplot.line(x="date", y=["rating_min", "rating_avg", "rating_max"], by="venue", title="Min/Avg/Max Rating Over Time")
+abv_plot = df.hvplot.line(
+    x="date",
+    y=["abv_min", "abv_avg", "abv_max"],
+    by="venue",
+    title="Min/Avg/Max ABV Over Time",
+)
+rating_plot = df.hvplot.line(
+    x="date",
+    y=["rating_min", "rating_avg", "rating_max"],
+    by="venue",
+    title="Min/Avg/Max Rating Over Time",
+)
 
 # Save interactive plots as standalone HTML files
 hv.save(abv_plot, "abv_plot.html", fmt="html")
 hv.save(rating_plot, "rating_plot.html", fmt="html")
 
 # Generate static table
-table_html = df.to_html(classes='table table-striped', index=False)
+table_html = df.to_html(classes="table table-striped", index=False)
 
 # Create HTML page
 html_content = f"""
