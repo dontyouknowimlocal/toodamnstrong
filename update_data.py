@@ -118,19 +118,19 @@ def get_repo(github_instance, repo_name):
         raise RuntimeError(f"Failed to access repository: {e}")
 
 
-def get_file_contents(repo, file_path):
+def get_file_contents(repo, file_path: Path):
     try:
-        return repo.get_contents(file_path)
+        return repo.get_contents(str(file_path))
     except GithubException:
         return None
 
 
-def update_file(repo, file_path, data, commit_message):
+def update_file(repo, file_path: Path, data, commit_message):
     try:
-        contents = repo.get_contents(file_path)
+        contents = repo.get_contents(str(file_path))
         repo.update_file(contents.path, commit_message, data, contents.sha)
     except GithubException:
-        repo.create_file(file_path, commit_message, data)
+        repo.create_file(str(file_path), commit_message, data)
 
 
 async def main():
