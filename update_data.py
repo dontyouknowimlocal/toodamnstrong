@@ -46,13 +46,18 @@ def parse_beer_info(beer_item) -> Beer:
     rating_text = beer_item.select_one("h6 .num").text.strip("()")
     rating = float(rating_text) if rating_text != "N/A" else None
 
+    abv_element = beer_item.select_one("h6 span")
+    abv_text = abv_element.text.split("•")[0].strip().replace("% ABV", "")
+    
+    try:
+        abv = float(abv_text) if abv_text != "N/A" else None
+    except ValueError:
+        abv = None
+
     return Beer(
         name=beer_item.select_one("h5 a").text.strip(),
         style=beer_item.select_one("h5 em").text.strip(),
-        abv=beer_item.select_one("h6 span")
-        .text.split("•")[0]
-        .strip()
-        .replace("% ABV", ""),
+        abv=abv_text if abv is not None else "N/A",
         brewery=beer_item.select_one("h6 span a").text.strip(),
         brewery_url=beer_item.select_one("h6 span a")["href"],
         rating=rating,
@@ -78,7 +83,10 @@ async def update_beer_data(venues, existing_data):
             f"https://untappd.com/v/{venue['slug']}/{venue['id']}/"
         )
         beers = await get_beer_info(url)
-        valid_beers = [beer for beer in beers if beer.rating is not None]
+        valid_beers = [
+            beer for beer in beers 
+            if beer.rating is not None and beer.abv not in (None, "N/A")
+        ]
 
         if not valid_beers:
             continue
