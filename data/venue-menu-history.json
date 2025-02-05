@@ -41937,5 +41937,284 @@
                 "rating": 3.72
             }
         ]
+    },
+    {
+        "venue_id": 10373013,
+        "venue_name": "The Hive Craft Beer and Coffee Shop",
+        "date": "2025-02-05",
+        "abv_avg": 6.1571428571428575,
+        "abv_max": 10.0,
+        "abv_min": 2.5,
+        "rating_avg": 3.802857142857143,
+        "rating_max": 4.11,
+        "rating_min": 3.63,
+        "beers": [
+            {
+                "name": "Smell-O-Scope: Idaho 7",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "5",
+                "brewery": "Gravity Well Brewing Co",
+                "brewery_url": "/w/gravity-well-brewing-co/410606",
+                "rating": 3.82
+            },
+            {
+                "name": "Small Ball",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "2.5",
+                "brewery": "Phantom Brewing Co.",
+                "brewery_url": "/w/phantom-brewing-co/447819",
+                "rating": 3.65
+            },
+            {
+                "name": "Gunk",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "4",
+                "brewery": "Phantom Brewing Co.",
+                "brewery_url": "/w/phantom-brewing-co/447819",
+                "rating": 3.63
+            },
+            {
+                "name": "Polly's x Pastore - 7th Birthday",
+                "style": "Sour - Fruited",
+                "abv": "7",
+                "brewery": "Polly's Brew Co.",
+                "brewery_url": "/w/polly-s-brew-co/373345",
+                "rating": 3.77
+            },
+            {
+                "name": "Polly's x Lost Cause - 7th Birthday",
+                "style": "Stout - Imperial / Double",
+                "abv": "10",
+                "brewery": "Polly's Brew Co.",
+                "brewery_url": "/w/polly-s-brew-co/373345",
+                "rating": 4.0
+            },
+            {
+                "name": "Polly's x Pomona Island - 7th Birthday",
+                "style": "IPA - Triple New England / Hazy",
+                "abv": "10",
+                "brewery": "Polly's Brew Co.",
+                "brewery_url": "/w/polly-s-brew-co/373345",
+                "rating": 4.11
+            },
+            {
+                "name": "NZ Pilsner",
+                "style": "Pilsner - New Zealand",
+                "abv": "4.6",
+                "brewery": "BeerRiff",
+                "brewery_url": "/w/beerriff/359175",
+                "rating": 3.64
+            }
+        ]
+    },
+    {
+        "venue_id": 1243580,
+        "venue_name": "Siren Craft Brew",
+        "date": "2025-02-05",
+        "abv_avg": 7.454545454545454,
+        "abv_max": 12.2,
+        "abv_min": 4.2,
+        "rating_avg": 3.8181818181818183,
+        "rating_max": 4.25,
+        "rating_min": 3.52,
+        "beers": [
+            {
+                "name": "1.\n                                                                Lumina",
+                "style": "Gluten Free Session IPA",
+                "abv": "4.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.6
+            },
+            {
+                "name": "2.\n                                                                Broken Dream",
+                "style": "Breakfast Stout",
+                "abv": "6.5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.82
+            },
+            {
+                "name": "3.\n                                                                Soundwave IPA",
+                "style": "Flagship IPA",
+                "abv": "5.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.72
+            },
+            {
+                "name": "5.\n                                                                Santo",
+                "style": "Dry Hopped Lager",
+                "abv": "5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.57
+            },
+            {
+                "name": "6.\n                                                                Pompelmocello",
+                "style": "Juicy Grapefruit Sour IPA",
+                "abv": "6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.63
+            },
+            {
+                "name": "7.\n                                                                Just Like Paradise",
+                "style": "Tropical IPA",
+                "abv": "4.7",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.52
+            },
+            {
+                "name": "8.\n                                                                Origin Story",
+                "style": "Stout - Imperial / Double",
+                "abv": "10",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.07
+            },
+            {
+                "name": "9.\n                                                                Indie City",
+                "style": "IPA",
+                "abv": "6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.72
+            },
+            {
+                "name": "11.\n                                                                Death By C.C.C 2024",
+                "style": "Imperial Stout",
+                "abv": "12.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.25
+            },
+            {
+                "name": "12.\n                                                                Barrel Aged Coffibean Chocolate Cake",
+                "style": "Coffee BA Imperial Stout",
+                "abv": "9.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.96
+            },
+            {
+                "name": "13.\n                                                                Death By Caribbean Chocolate Christmas Cake",
+                "style": "Imperial Tropical Stout",
+                "abv": "12.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.14
+            }
+        ]
+    },
+    {
+        "venue_id": 11716027,
+        "venue_name": "Two Flints Brewery",
+        "date": "2025-02-05",
+        "abv_avg": 5.841666666666667,
+        "abv_max": 11.0,
+        "abv_min": 3.8,
+        "rating_avg": 3.8541666666666665,
+        "rating_max": 4.2,
+        "rating_min": 3.61,
+        "beers": [
+            {
+                "name": "Murmur",
+                "style": "Stout - Coffee",
+                "abv": "4.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.89
+            },
+            {
+                "name": "Loose End",
+                "style": "IPA - New England / Hazy",
+                "abv": "6.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.92
+            },
+            {
+                "name": "Into the Night",
+                "style": "Stout - Imperial / Double",
+                "abv": "11",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.2
+            },
+            {
+                "name": "Iron Brew Raspberry Ripple",
+                "style": "Sour - Smoothie / Pastry",
+                "abv": "5",
+                "brewery": "Vault City Brewing",
+                "brewery_url": "/w/vault-city-brewing/399292",
+                "rating": 4.03
+            },
+            {
+                "name": "Never End",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "4.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.76
+            },
+            {
+                "name": "Big Bash",
+                "style": "IPA - Imperial / Double New England / Hazy",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.12
+            },
+            {
+                "name": "Last Stand",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "5.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.9
+            },
+            {
+                "name": "Santiago",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "3.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.67
+            },
+            {
+                "name": "Pils",
+                "style": "Pilsner - German",
+                "abv": "5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.68
+            },
+            {
+                "name": "Chiara",
+                "style": "Pilsner - Italian",
+                "abv": "5.2",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.61
+            },
+            {
+                "name": "Pilot",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "4.8",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.75
+            },
+            {
+                "name": "Mothership",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "6",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.72
+            }
+        ]
     }
 ]
