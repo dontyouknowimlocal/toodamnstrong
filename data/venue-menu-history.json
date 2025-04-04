@@ -57593,5 +57593,284 @@
                 "rating": 3.75
             }
         ]
+    },
+    {
+        "venue_id": 10373013,
+        "venue_name": "The Hive Craft Beer and Coffee Shop",
+        "date": "2025-04-04",
+        "abv_avg": 6.285714285714286,
+        "abv_max": 12.0,
+        "abv_min": 4.5,
+        "rating_avg": 3.782857142857143,
+        "rating_max": 4.24,
+        "rating_min": 3.37,
+        "beers": [
+            {
+                "name": "Soup of Js - DDH Pale",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "4.5",
+                "brewery": "Topsham Brewery",
+                "brewery_url": "/w/topsham-brewery/390345",
+                "rating": 3.68
+            },
+            {
+                "name": "Peach Bellini",
+                "style": "Sour - Fruited",
+                "abv": "5.5",
+                "brewery": "Double-Barrelled Brewery",
+                "brewery_url": "/w/double-barrelled-brewery/233782",
+                "rating": 3.68
+            },
+            {
+                "name": "Persistence of Time",
+                "style": "IPA - Imperial / Double",
+                "abv": "6.9",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.94
+            },
+            {
+                "name": "Even More Jesus XII",
+                "style": "Stout - Imperial / Double",
+                "abv": "12",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.24
+            },
+            {
+                "name": "Yakima Trail",
+                "style": "IPA - American",
+                "abv": "5.8",
+                "brewery": "Elusive Brewing",
+                "brewery_url": "/w/elusive-brewing/49198",
+                "rating": 3.83
+            },
+            {
+                "name": "CODA",
+                "style": "IPA - New Zealand",
+                "abv": "4.6",
+                "brewery": "Three Hills Brewing",
+                "brewery_url": "/w/three-hills-brewing/300599",
+                "rating": 3.74
+            },
+            {
+                "name": "Unfiltered British Lager",
+                "style": "Lager - Helles",
+                "abv": "4.7",
+                "brewery": "Utopian Brewing Ltd",
+                "brewery_url": "/w/utopian-brewing-ltd/421852",
+                "rating": 3.37
+            }
+        ]
+    },
+    {
+        "venue_id": 1243580,
+        "venue_name": "Siren Craft Brew",
+        "date": "2025-04-04",
+        "abv_avg": 6.6,
+        "abv_max": 12.0,
+        "abv_min": 3.4,
+        "rating_avg": 3.775,
+        "rating_max": 4.24,
+        "rating_min": 3.1,
+        "beers": [
+            {
+                "name": "1.\n                                                                Lumina",
+                "style": "IPA - Session",
+                "abv": "4.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.6
+            },
+            {
+                "name": "2.\n                                                                Broken Dream",
+                "style": "Breakfast Stout",
+                "abv": "6.5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.82
+            },
+            {
+                "name": "3.\n                                                                Soundwave IPA",
+                "style": "Flagship IPA",
+                "abv": "5.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.71
+            },
+            {
+                "name": "4.\n                                                                Mesmerist",
+                "style": "Pale Ale - Other",
+                "abv": "3.4",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.56
+            },
+            {
+                "name": "5.\n                                                                Chasing Rainbows",
+                "style": "Helles Lager",
+                "abv": "5.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.67
+            },
+            {
+                "name": "6.\n                                                                Pink Paloma",
+                "style": "Cocktail Inspired Sour",
+                "abv": "5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.1
+            },
+            {
+                "name": "7.\n                                                                Maiden 2024",
+                "style": "Barleywine - American",
+                "abv": "10",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.2
+            },
+            {
+                "name": "8.\n                                                                Every Minute Matters",
+                "style": "California IPA",
+                "abv": "7.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.91
+            },
+            {
+                "name": "9.\n                                                                Persistence of Time",
+                "style": "DIPA",
+                "abv": "6.9",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.94
+            },
+            {
+                "name": "10.\n                                                                Even More Jesus XII",
+                "style": "Imperial Stout",
+                "abv": "12",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.24
+            }
+        ]
+    },
+    {
+        "venue_id": 11716027,
+        "venue_name": "Two Flints Brewery",
+        "date": "2025-04-04",
+        "abv_avg": 5.8,
+        "abv_max": 11.0,
+        "abv_min": 3.8,
+        "rating_avg": 3.847692307692308,
+        "rating_max": 4.23,
+        "rating_min": 3.57,
+        "beers": [
+            {
+                "name": "Big Frank (2025)",
+                "style": "IPA - Imperial / Double New England / Hazy",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.23
+            },
+            {
+                "name": "Chasing Shadows",
+                "style": "IPA - New England / Hazy",
+                "abv": "6.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.08
+            },
+            {
+                "name": "Santiago",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "3.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.67
+            },
+            {
+                "name": "Big Jack",
+                "style": "IPA - Imperial / Double New England / Hazy",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.11
+            },
+            {
+                "name": "Pils",
+                "style": "Pilsner - German",
+                "abv": "5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.65
+            },
+            {
+                "name": "Different Direction",
+                "style": "Sour - Smoothie / Pastry",
+                "abv": "4.5",
+                "brewery": "Left Handed Giant",
+                "brewery_url": "/w/left-handed-giant/189129",
+                "rating": 3.87
+            },
+            {
+                "name": "Noa Pecan Mud Cake Stout",
+                "style": "Stout - Imperial / Double Pastry",
+                "abv": "11",
+                "brewery": "Omnipollo",
+                "brewery_url": "/w/omnipollo/29486",
+                "rating": 4.19
+            },
+            {
+                "name": "Never End",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "4.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.74
+            },
+            {
+                "name": "Small Talk",
+                "style": "Pilsner - Other",
+                "abv": "4.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.57
+            },
+            {
+                "name": "Murmur",
+                "style": "Stout - Coffee",
+                "abv": "4.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.83
+            },
+            {
+                "name": "Pilot",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "4.8",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.75
+            },
+            {
+                "name": "Mothership",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "6",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.73
+            },
+            {
+                "name": "Mess With the Honk",
+                "style": "Cider - Other Fruit",
+                "abv": "4",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.6
+            }
+        ]
     }
 ]
