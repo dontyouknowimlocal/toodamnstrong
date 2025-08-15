@@ -96640,5 +96640,332 @@
                 "rating": 3.78
             }
         ]
+    },
+    {
+        "venue_id": 10373013,
+        "venue_name": "The Hive Craft Beer and Coffee Shop",
+        "date": "2025-08-15",
+        "abv_avg": 4.9,
+        "abv_max": 6.3,
+        "abv_min": 3.0,
+        "rating_avg": 3.744285714285714,
+        "rating_max": 3.97,
+        "rating_min": 3.43,
+        "beers": [
+            {
+                "name": "Pear & Elderflower Table Sour",
+                "style": "Table Beer",
+                "abv": "3",
+                "brewery": "Vault City Brewing",
+                "brewery_url": "/w/vault-city-brewing/399292",
+                "rating": 3.82
+            },
+            {
+                "name": "Pillow Talk",
+                "style": "IPA - New England / Hazy",
+                "abv": "5.6",
+                "brewery": "Pipeline Brewing Co",
+                "brewery_url": "/w/pipeline-brewing-co/375922",
+                "rating": 3.97
+            },
+            {
+                "name": "Lush",
+                "style": "Pale Ale - American",
+                "abv": "4.2",
+                "brewery": "Wylam",
+                "brewery_url": "/w/wylam/9187",
+                "rating": 3.77
+            },
+            {
+                "name": "Pulse Pilsner",
+                "style": "Pilsner - Other",
+                "abv": "4.4",
+                "brewery": "Distortion Brewing",
+                "brewery_url": "/w/distortion/484540",
+                "rating": 3.43
+            },
+            {
+                "name": "Jakehead",
+                "style": "IPA - New England / Hazy",
+                "abv": "6.3",
+                "brewery": "Wylam",
+                "brewery_url": "/w/wylam/9187",
+                "rating": 3.88
+            },
+            {
+                "name": "Interstate",
+                "style": "IPA - American",
+                "abv": "5.8",
+                "brewery": "OVERTONE",
+                "brewery_url": "/w/overtone/400105",
+                "rating": 3.66
+            },
+            {
+                "name": "Level Up",
+                "style": "Red Ale - American Amber / Red",
+                "abv": "5",
+                "brewery": "Elusive Brewing",
+                "brewery_url": "/w/elusive-brewing/49198",
+                "rating": 3.68
+            }
+        ]
+    },
+    {
+        "venue_id": 1243580,
+        "venue_name": "Siren Craft Brew",
+        "date": "2025-08-15",
+        "abv_avg": 5.65,
+        "abv_max": 9.6,
+        "abv_min": 4.0,
+        "rating_avg": 3.681,
+        "rating_max": 4.23,
+        "rating_min": 3.39,
+        "beers": [
+            {
+                "name": "1.\n                                                                Lumina",
+                "style": "IPA - Session",
+                "abv": "4.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.6
+            },
+            {
+                "name": "2.\n                                                                Broken Dream",
+                "style": "Breakfast Stout",
+                "abv": "6.5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.82
+            },
+            {
+                "name": "3.\n                                                                Soundwave IPA",
+                "style": "Flagship IPA",
+                "abv": "5.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.71
+            },
+            {
+                "name": "4.\n                                                                Suspended In New Zealand",
+                "style": "Pale Ale - New Zealand",
+                "abv": "4",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.63
+            },
+            {
+                "name": "5.\n                                                                Siren Pils",
+                "style": "Pilsner - Other",
+                "abv": "4.8",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.42
+            },
+            {
+                "name": "6.\n                                                                Calypso",
+                "style": "Sour - Other",
+                "abv": "4",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.5
+            },
+            {
+                "name": "7.\n                                                                Soundwave Nectaron",
+                "style": "IPA - American",
+                "abv": "5.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.7
+            },
+            {
+                "name": "Zipper",
+                "style": "Shandy / Radler",
+                "abv": "5",
+                "brewery": "Newbarns Brewery",
+                "brewery_url": "/w/newbarns-brewery/467016",
+                "rating": 3.39
+            },
+            {
+                "name": "9.\n                                                                Sold My Soul For Nelson",
+                "style": "IPA - New England / Hazy",
+                "abv": "7.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.81
+            },
+            {
+                "name": "10.\n                                                                Shattered Dream",
+                "style": "Stout - Imperial / Double Coffee",
+                "abv": "9.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 4.23
+            }
+        ]
+    },
+    {
+        "venue_id": 11716027,
+        "venue_name": "Two Flints Brewery",
+        "date": "2025-08-15",
+        "abv_avg": 4.510526315789473,
+        "abv_max": 8.0,
+        "abv_min": 0.5,
+        "rating_avg": 3.7694736842105265,
+        "rating_max": 4.25,
+        "rating_min": 3.26,
+        "beers": [
+            {
+                "name": "D\u00e9\u0161\u0165",
+                "style": "Pilsner - Czech / Bohemian",
+                "abv": "5",
+                "brewery": "Beak",
+                "brewery_url": "/w/beak/167433",
+                "rating": 3.69
+            },
+            {
+                "name": "Helles (Lager)",
+                "style": "Lager - Helles",
+                "abv": "4.8",
+                "brewery": "Verdant Brewing Co",
+                "brewery_url": "/w/verdant-brewing-co/211325",
+                "rating": 3.65
+            },
+            {
+                "name": "Santiago",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "3.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.68
+            },
+            {
+                "name": "Never End",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "4.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.75
+            },
+            {
+                "name": "Always Returning",
+                "style": "IPA - New England / Hazy",
+                "abv": "7",
+                "brewery": "Track Brewing Company",
+                "brewery_url": "/w/track-brewing-company/182149",
+                "rating": 4.25
+            },
+            {
+                "name": "Solero",
+                "style": "Sour - Smoothie / Pastry",
+                "abv": "5",
+                "brewery": "Yonder Brewing",
+                "brewery_url": "/w/yonder-brewing/391964",
+                "rating": 3.83
+            },
+            {
+                "name": "Light of Day",
+                "style": "IPA - American",
+                "abv": "6",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.72
+            },
+            {
+                "name": "Parallel #3",
+                "style": "IPA - Imperial / Double New England / Hazy",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.06
+            },
+            {
+                "name": "Deep Diving",
+                "style": "IPA - New England / Hazy",
+                "abv": "6.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.94
+            },
+            {
+                "name": "Dripping In... Riwaka",
+                "style": "IPA - Imperial / Double New England / Hazy",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.07
+            },
+            {
+                "name": "Donk",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "5.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.9
+            },
+            {
+                "name": "Murmur",
+                "style": "Stout - Coffee",
+                "abv": "4.5",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.83
+            },
+            {
+                "name": "Pilot",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "4.8",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.76
+            },
+            {
+                "name": "Mothership",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "6",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.72
+            },
+            {
+                "name": "Unless You Think",
+                "style": "Cider - Other Fruit",
+                "abv": "4",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.81
+            },
+            {
+                "name": "Tomorrow",
+                "style": "Non-Alcoholic - Lager",
+                "abv": "0.5",
+                "brewery": "Wiper And True",
+                "brewery_url": "/w/wiper-and-true/48637",
+                "rating": 3.26
+            },
+            {
+                "name": "Fresh",
+                "style": "Non-Alcoholic - IPA",
+                "abv": "0.5",
+                "brewery": "Cloudwater Brew Co.",
+                "brewery_url": "/w/cloudwater-brew-co/189896",
+                "rating": 3.49
+            },
+            {
+                "name": "BOLD",
+                "style": "Non-Alcoholic - Pale Ale",
+                "abv": "0.5",
+                "brewery": "Queer Brewing",
+                "brewery_url": "/w/queer-brewing/465537",
+                "rating": 3.42
+            },
+            {
+                "name": "Lesser Evil",
+                "style": "Non-Alcoholic - Porter / Stout",
+                "abv": "0.5",
+                "brewery": "Mash Gang",
+                "brewery_url": "/w/mash-gang/473602",
+                "rating": 3.79
+            }
+        ]
     }
 ]
