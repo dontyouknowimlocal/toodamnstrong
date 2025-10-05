@@ -113493,5 +113493,332 @@
                 "rating": 3.3
             }
         ]
+    },
+    {
+        "venue_id": 10373013,
+        "venue_name": "The Hive Craft Beer and Coffee Shop",
+        "date": "2025-10-05",
+        "abv_avg": 5.3,
+        "abv_max": 7.0,
+        "abv_min": 3.4,
+        "rating_avg": 3.69,
+        "rating_max": 4.15,
+        "rating_min": 3.2,
+        "beers": [
+            {
+                "name": "Proper Dose",
+                "style": "IPA - New England / Hazy",
+                "abv": "6.7",
+                "brewery": "Phantom Brewing Co.",
+                "brewery_url": "/w/phantom-brewing-co/447819",
+                "rating": 3.62
+            },
+            {
+                "name": "Locomotive",
+                "style": "IPA - New England / Hazy",
+                "abv": "7",
+                "brewery": "Track Brewing Company",
+                "brewery_url": "/w/track-brewing-company/182149",
+                "rating": 4.15
+            },
+            {
+                "name": "System Error",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "5.4",
+                "brewery": "Dark Revolution",
+                "brewery_url": "/w/dark-revolution/249812",
+                "rating": 3.99
+            },
+            {
+                "name": "This Makes Me Yummy",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "3.4",
+                "brewery": "Phantom Brewing Co.",
+                "brewery_url": "/w/phantom-brewing-co/447819",
+                "rating": 3.48
+            },
+            {
+                "name": "Turbo Slurm",
+                "style": "Sour - Fruited",
+                "abv": "4.5",
+                "brewery": "Yonder Brewing",
+                "brewery_url": "/w/yonder-brewing/391964",
+                "rating": 3.64
+            },
+            {
+                "name": "Redondo",
+                "style": "Lager - Other",
+                "abv": "4.3",
+                "brewery": "Elusive Brewing",
+                "brewery_url": "/w/elusive-brewing/49198",
+                "rating": 3.2
+            },
+            {
+                "name": "Half-Hearted Apollogy",
+                "style": "IPA - New England / Hazy",
+                "abv": "5.8",
+                "brewery": "Electric Bear Brewing Co",
+                "brewery_url": "/w/electric-bear-brewing-co/225788",
+                "rating": 3.75
+            }
+        ]
+    },
+    {
+        "venue_id": 1243580,
+        "venue_name": "Siren Craft Brew",
+        "date": "2025-10-05",
+        "abv_avg": 5.2,
+        "abv_max": 8.0,
+        "abv_min": 0.5,
+        "rating_avg": 3.692727272727273,
+        "rating_max": 3.89,
+        "rating_min": 3.36,
+        "beers": [
+            {
+                "name": "1.\n                                                                Lumina",
+                "style": "Gluten Free Session IPA",
+                "abv": "4.2",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.59
+            },
+            {
+                "name": "2.\n                                                                Broken Dream",
+                "style": "Breakfast Stout",
+                "abv": "6.5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.82
+            },
+            {
+                "name": "3.\n                                                                Soundwave IPA",
+                "style": "Flagship IPA",
+                "abv": "5.6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.71
+            },
+            {
+                "name": "4.\n                                                                Suspended In Citra",
+                "style": "Hazy Pale Ale",
+                "abv": "4",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.74
+            },
+            {
+                "name": "5.\n                                                                Siren Pils",
+                "style": "Gluten Free Lager",
+                "abv": "4.8",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.36
+            },
+            {
+                "name": "6.\n                                                                Time Hops: Strata",
+                "style": "Hazy IPA",
+                "abv": "6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.8
+            },
+            {
+                "name": "7.\n                                                                Time Hops: Galaxy",
+                "style": "Hazy IPA",
+                "abv": "6.5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.89
+            },
+            {
+                "name": "8.\n                                                                Time Hops: Saaz",
+                "style": "Pilsner - Czech / Bohemian",
+                "abv": "5.1",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.69
+            },
+            {
+                "name": "9.\n                                                                Soundwave 0.5",
+                "style": "Low Alcohol IPA",
+                "abv": "0.5",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.37
+            },
+            {
+                "name": "10.\n                                                                Time Hops: Nelson Sauvin",
+                "style": "DIPA",
+                "abv": "8",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.88
+            },
+            {
+                "name": "Delicious Things",
+                "style": "Fruited Sour",
+                "abv": "6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.77
+            }
+        ]
+    },
+    {
+        "venue_id": 11716027,
+        "venue_name": "Two Flints Brewery",
+        "date": "2025-10-05",
+        "abv_avg": 4.183333333333334,
+        "abv_max": 8.0,
+        "abv_min": 0.5,
+        "rating_avg": 3.7316666666666665,
+        "rating_max": 4.22,
+        "rating_min": 3.26,
+        "beers": [
+            {
+                "name": "Clara",
+                "style": "Lager - Mexican",
+                "abv": "4.6",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.58
+            },
+            {
+                "name": "Santiago",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "3.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.68
+            },
+            {
+                "name": "Never End",
+                "style": "Pale Ale - New England / Hazy",
+                "abv": "4.8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.76
+            },
+            {
+                "name": "Delicious Things",
+                "style": "Sour - Fruited",
+                "abv": "6",
+                "brewery": "Siren Craft Brew",
+                "brewery_url": "/w/siren-craft-brew/55184",
+                "rating": 3.77
+            },
+            {
+                "name": "Rolling Water",
+                "style": "IPA - New England / Hazy",
+                "abv": "7",
+                "brewery": "Cloudwater Brew Co.",
+                "brewery_url": "/w/cloudwater-brew-co/189896",
+                "rating": 4.06
+            },
+            {
+                "name": "Mixed Ferm #1",
+                "style": "Farmhouse Ale - Saison",
+                "abv": "5.4",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.89
+            },
+            {
+                "name": "Tunnel Vision",
+                "style": "IPA - New England / Hazy",
+                "abv": "6",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 3.85
+            },
+            {
+                "name": "Dripping In... Riwaka",
+                "style": "IPA - Imperial / Double New England / Hazy",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.1
+            },
+            {
+                "name": "Dripping In... Eggers Special",
+                "style": "IPA - Imperial / Double",
+                "abv": "8",
+                "brewery": "Two Flints Brewery",
+                "brewery_url": "/w/two-flints-brewery/532412",
+                "rating": 4.22
+            },
+            {
+                "name": "London Black",
+                "style": "Porter - English",
+                "abv": "4.4",
+                "brewery": "Anspach & Hobday",
+                "brewery_url": "/w/anspach-hobday/56290",
+                "rating": 3.74
+            },
+            {
+                "name": "Pilot",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "4.8",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.76
+            },
+            {
+                "name": "Mothership",
+                "style": "Cider - Traditional / Apfelwein",
+                "abv": "6",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.71
+            },
+            {
+                "name": "Shimmy",
+                "style": "Cider - Other Fruit",
+                "abv": "4",
+                "brewery": "Ascension Cider",
+                "brewery_url": "/w/ascension-cider/336244",
+                "rating": 3.76
+            },
+            {
+                "name": "Tomorrow",
+                "style": "Non-Alcoholic - Lager",
+                "abv": "0.5",
+                "brewery": "Wiper And True",
+                "brewery_url": "/w/wiper-and-true/48637",
+                "rating": 3.26
+            },
+            {
+                "name": "PSYCH!",
+                "style": "Non-Alcoholic - IPA",
+                "abv": "0.5",
+                "brewery": "Verdant Brewing Co",
+                "brewery_url": "/w/verdant-brewing-co/211325",
+                "rating": 3.45
+            },
+            {
+                "name": "Lesser Evil",
+                "style": "Non-Alcoholic - Porter / Stout",
+                "abv": "0.5",
+                "brewery": "Mash Gang",
+                "brewery_url": "/w/mash-gang/473602",
+                "rating": 3.78
+            },
+            {
+                "name": "Cloudy Krush",
+                "style": "Non-Alcoholic - Sour",
+                "abv": "0.5",
+                "brewery": "Vault City Brewing",
+                "brewery_url": "/w/vault-city-brewing/399292",
+                "rating": 3.5
+            },
+            {
+                "name": "LowKey",
+                "style": "Non-Alcoholic - Pale Ale",
+                "abv": "0.5",
+                "brewery": "UnBarred Brewery",
+                "brewery_url": "/w/unbarred-brewery/163014",
+                "rating": 3.3
+            }
+        ]
     }
 ]
