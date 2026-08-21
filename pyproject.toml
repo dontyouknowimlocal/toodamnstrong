@@ -1,16 +1,11 @@
 [project]
 name = "toodamnstrong"
 version = "0.1.0"
-description = "Add your description here"
+description = "An opinionated dashboard tracking the strength of local craft beer menus"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "environs",
-    "pandas",
-    "hvplot",
-    "panel",
-    "bokeh",
-    "holoviews",
     "httpx",
     "beautifulsoup4==4.12.3",
     "PyGithub==2.5.0"
