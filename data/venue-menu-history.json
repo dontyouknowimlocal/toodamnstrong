@@ -251000,5 +251000,74 @@
                 "rating": 3.77
             }
         ]
+    },
+    {
+        "venue_id": 10373013,
+        "venue_name": "The Hive Craft Beer and Coffee Shop",
+        "date": "2026-11-24",
+        "abv_avg": 5.085714285714285,
+        "abv_max": 6.0,
+        "abv_min": 4.0,
+        "rating_avg": 3.7328571428571427,
+        "rating_max": 3.89,
+        "rating_min": 3.32,
+        "beers": [
+            {
+                "name": "Strange Overtones",
+                "style": "IPA - Other",
+                "abv": "5.5",
+                "brewery": "Polly's Brew Co.",
+                "brewery_url": "/Pollysbrewco",
+                "rating": 3.89
+            },
+            {
+                "name": "1.\n                                                                Mixtape - Gluten Free Helles Lager",
+                "style": "Lager - Helles",
+                "abv": "4.6",
+                "brewery": "Electric Bear Brewing Co",
+                "brewery_url": "/ElectricBearBrewingCo",
+                "rating": 3.32
+            },
+            {
+                "name": "2.\n                                                                Sprint",
+                "style": "Pale Ale - American",
+                "abv": "4",
+                "brewery": "Elusive Brewing",
+                "brewery_url": "/ElusiveBrewing",
+                "rating": 3.68
+            },
+            {
+                "name": "3.\n                                                                Level Up",
+                "style": "Red Ale - American Amber / Red",
+                "abv": "5",
+                "brewery": "Elusive Brewing",
+                "brewery_url": "/ElusiveBrewing",
+                "rating": 3.7
+            },
+            {
+                "name": "5.\n                                                                Miramesa",
+                "style": "IPA - American",
+                "abv": "6",
+                "brewery": "Elusive Brewing",
+                "brewery_url": "/ElusiveBrewing",
+                "rating": 3.88
+            },
+            {
+                "name": "6.\n                                                                Laureate",
+                "style": "Sour - Fruited Gose",
+                "abv": "4.5",
+                "brewery": "Dolphin Brewery",
+                "brewery_url": "/DolphinBrewery",
+                "rating": 3.84
+            },
+            {
+                "name": "Twin Peaks",
+                "style": "Stout - Pastry",
+                "abv": "6",
+                "brewery": "Vault City Brewing",
+                "brewery_url": "/VaultCityBrewing",
+                "rating": 3.82
+            }
+        ]
     }
 ]
